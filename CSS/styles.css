@@ -335,17 +335,7 @@ img {
     .input-container {
         position: relative;
     }
-
-    .input-container:hover .form-item,
-    .input-container:focus .form-item {
-        border-color: #2196F3;
-    }
-
-    .input-container:hover .modal-svg,
-    .input-container:focus .modal-svg {
-        fill: #2196F3;
-    }
-
+    
     .modal-svg {
         position: absolute;
         top: 50%;
@@ -362,7 +352,7 @@ img {
 
         font-weight: 700;
         font-size: 20px;
-        line-height: 23px;
+        line-height: 1.15;
         letter-spacing: 0.03em;
 
         color: #212121;
@@ -373,7 +363,7 @@ img {
     ::placeholder {
         font-weight: 400;
         font-size: 12px;
-        line-height: 14px;
+        line-height: 1.17;
         letter-spacing: 0.01em;
         color: rgba(117, 117, 117, 0.5);
     }
@@ -382,7 +372,7 @@ img {
         margin-bottom: 4px;
         font-weight: 400;
         font-size: 12px;
-        line-height: 14px;
+        line-height: 1.17;
         letter-spacing: 0.01em;
         color: #757575;
 
@@ -393,6 +383,8 @@ img {
         border: 1px solid rgba(33, 33, 33, 0.2);
         border-radius: 4px;
         padding-left: 42px;
+
+        outline: transparent;
     }
 
     .comment-item {
@@ -402,12 +394,33 @@ img {
 
         border: 1px solid rgba(33, 33, 33, 0.2);
         border-radius: 4px;
+        outline: transparent;
+    }
+
+    .input-container:hover .form-item,
+    .input-container:focus .form-item {
+        border-color: #2196F3;
+    }
+
+    .input-container:hover .modal-svg,
+    .input-container:focus .modal-svg {
+        fill: #2196F3;
+    }
+
+    .form-item:hover,
+    .form-item:focus {
+        border-color: #2196F3;
+    }
+
+    .comment-item:hover,
+    .comment-item:focus {
+        border-color: #2196F3;
     }
 
     .field-label {
         font-weight: 400;
         font-size: 14px;
-        line-height: 24px;  
+        line-height: 1.7;  
         letter-spacing: 0.03em;
 
         color: #757575;
@@ -437,7 +450,7 @@ img {
 
         font-weight: 700;
         font-size: 16px;
-        line-height: 30px;
+        line-height: 1.87;
 
         letter-spacing: 0.06em;
 
@@ -644,7 +657,7 @@ img {
 .clients-title {
     font-weight: 700;
     font-size: 36px;
-    line-height: 42px;
+    line-height: 1.17;
     text-align: center;
     letter-spacing: 0.03em;
 
@@ -807,7 +820,7 @@ img {
 .subscribe-title {
     font-weight: 700;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1.14;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     
@@ -828,7 +841,7 @@ img {
     padding-left: 16px;
 
     color: white;
-    background-color: #2F303A;
+    background-color: transparent;
 
     border: 1px solid rgba(255, 255, 255, 0.3);
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
@@ -838,7 +851,7 @@ img {
 .subscribe-mail::placeholder {
     font-weight: 400;
     font-size: 16px;
-    line-height: 20px;
+    line-height: 1.25;
     display: flex;
     align-items: center;
     letter-spacing: 0.03em;
@@ -864,7 +877,7 @@ img {
 
     font-weight: 700;
     font-size: 16px;
-    line-height: 30px;
+    line-height: 1.87;
     letter-spacing: 0.06em;
 
     color: #FFFFFF;
