@@ -344,6 +344,10 @@ img {
         transform: translateY(-50%);
     }
 
+    .form-item:focus + .modal-svg {
+        fill: #188CE8;
+    }
+
     .modal-title {
         display: flex;
         justify-content: center;
@@ -385,6 +389,7 @@ img {
         padding-left: 42px;
 
         outline: transparent;
+        transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     }
 
     .comment-item {
@@ -397,22 +402,18 @@ img {
         outline: transparent;
     }
 
-    .input-container:hover .form-item,
     .input-container:focus .form-item {
         border-color: #2196F3;
     }
 
-    .input-container:hover .modal-svg,
     .input-container:focus .modal-svg {
         fill: #2196F3;
     }
 
-    .form-item:hover,
     .form-item:focus {
         border-color: #2196F3;
     }
 
-    .comment-item:hover,
     .comment-item:focus {
         border-color: #2196F3;
     }
