@@ -340,6 +340,7 @@ img {
     .input-container:focus .form-item {
         border-color: #2196F3;
     }
+
     .input-container:hover .modal-svg,
     .input-container:focus .modal-svg {
         fill: #2196F3;
@@ -393,7 +394,6 @@ img {
         border-radius: 4px;
         padding-left: 42px;
     }
-
 
     .comment-item {
         height: 120px;
