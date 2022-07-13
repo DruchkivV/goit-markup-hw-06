@@ -78,6 +78,23 @@
 
 /* COOMON STYLES END */
 
+/* Visually-hidden hide elements */
+
+.visually-hidden {
+	position: absolute;
+	white-space: nowrap;
+	width: 1px;
+	height: 1px;
+	overflow: hidden;
+	border: 0;
+	padding: 0;
+	clip: rect(0 0 0 0);
+	clip-path: inset(50%);
+	margin: -1px;
+}
+
+/* Visually-hidden hide elements end */
+
 /* SECTION HEADER */
     .header {
         padding-top: 24px;
@@ -436,20 +453,18 @@
 
     .agreement-container {
         position: relative;
+
+        display: flex;
+        align-items: center;
     }
 
     .custom-checkbox-container {
         display: inline-flex;
-
-        position: absolute;
-
-        top: 50%;
-        left: -3px;
-
-        transform: translateY(-55%);
-
-        align-items: center;
         justify-content: center;
+        align-items: center;
+
+        margin-right: 8px;
+
         width: 16px;
         height: 15px;
         outline: 2px solid #212121;
