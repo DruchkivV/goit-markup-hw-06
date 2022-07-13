@@ -453,6 +453,7 @@
         width: 16px;
         height: 15px;
         outline: 2px solid #212121;
+        outline-offset: -2px;
         border-radius: 2px;
         background-color: #FFFFFF;
     }
