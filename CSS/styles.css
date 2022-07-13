@@ -915,6 +915,8 @@
         margin-left: auto;
         margin-right: auto;
 
+        cursor: pointer;
+
         background-color: transparent;
         border: transparent;
 
