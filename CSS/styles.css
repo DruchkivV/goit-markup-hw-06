@@ -456,6 +456,8 @@
         outline-offset: -2px;
         border-radius: 2px;
         background-color: #FFFFFF;
+
+        transition: background-color 250ms, outline 250ms;
     }
 
     .form-checkbox-input {
